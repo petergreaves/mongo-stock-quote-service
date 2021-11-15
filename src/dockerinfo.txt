@@ -1,0 +1,1 @@
+docker run -p 27017:27017  -v /Users/petergreaves/datadir/mongo-quotes:/data/db --name quotes-mongodb -e MONGO_INITDB_ROOT_USERNAME=mongoadmin -e MONGO_INITDB_ROOT_PASSWORD=secret --network="bridge" -d mongo
